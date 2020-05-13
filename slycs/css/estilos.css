@@ -1,0 +1,371 @@
+body,input,select{
+	color: #4c4c4c;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+fieldset{
+	background: #eeeeee;
+    border: .1em solid #F60;
+    margin-left: 15%;
+    padding: 5px;
+    width:70%;
+}
+
+form{
+  margin: 3px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #4c4c4c;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4{
+	margin: 0;
+}
+
+hr{
+  color: #a9a9a9;
+  opacity: 0.3;
+}
+
+html{
+  background-color: #ffffff;
+}
+
+input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-outer-spin-button { 
+ 	margin: 0; 
+ 	-webkit-appearance: none; 
+}
+
+input[type="image"]{
+	height: 37px;
+	vertical-align: middle;
+	/*width: 37px;*/
+}
+
+input[type="submit"]{
+    background: #F90;
+    border-radius: 0 .25em;
+    color: #500;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.05em;
+    text-align: center;
+    text-decoration: none;
+    width: 180px;
+}
+
+input[type="submit"]:hover{
+	background: #7BBFD5;
+	border-radius: .25em 0;
+	color: #000;
+	cursor: pointer;
+	font-style: italic;
+	text-align: center;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+	background: #C6ECE9;
+}
+
+label{
+	display: inline-block;
+	margin: 10px;
+	text-align: right;
+	width: 110px;
+}
+
+legend{
+	color: #4c4c4c;
+	font-size: 20px;
+ 	font-weight: 300;
+}
+
+p{
+	font-size: 15px;
+	font-style: oblique;
+	margin:0;
+	text-align: center;
+
+}
+
+td input[type="image"]{
+	height: 25px;
+	padding:2px;
+	vertical-align: middle;
+	/*width: 25%;*/
+}
+
+table{
+	width: auto;
+}
+
+td{
+	text-align: center;
+}
+
+textarea{
+	margin:10px 10px;
+	resize: none;
+	width: 70%;
+}
+
+ul{
+	padding-inline-start: 0px;
+}
+
+#div-izquierdo{
+	display: inline-block;
+	text-align: right;
+	width: 49%;
+}
+#div-derecho{
+	display: inline-block;
+	text-align: left;
+	width: 49%;
+}
+
+.datagrid {
+	background: #fff; 
+	border: 1px solid #006699; 
+	border-radius: 3px; 
+	margin-left: 20%;
+	overflow-x:hidden;
+	width: 60%;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+}
+
+.datagrid table { 
+	border-collapse: collapse;
+	text-align: center; 
+	width: 100%;
+}
+
+.datagrid table tbody td {
+ 	color: #00496B;
+ 	color: #000;
+ 	border-left: 1px solid #E1EEF4;
+ 	font-size: 16px;
+ 	font-weight: normal;
+ 	padding:0;
+ 	width: 23%;
+ }
+
+.datagrid table td, .datagrid table th { 
+	padding:0; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+.datagrid table thead th {
+	background-color:#006699;
+	background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+	border-left: 1px solid #0070A8;
+ 	color:#FFFFFF;
+ 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+ 	font-size: 15px;
+ 	font-weight: normal;
+ 	text-align: center;
+ 	vertical-align: middle;
+ }
+
+ .detalle-incidencia{
+	margin-left: 25%; 
+	width:50%;
+}
+
+ .div-adduser {
+	background-color: #eeeeee;
+	border: solid 1px #cbc9c9;
+	border-radius: 8px/7px;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	height: 75%;
+  	margin: 20px auto;
+  	width: 540px;
+  	-moz-border-radius: 8px/7px;
+  	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+  	-webkit-border-radius: 8px/7px;
+   	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+}
+
+.div-adduser input[type=radio] {
+	visibility: hidden;
+}
+
+.div-adduser input[type=radio]:checked + label:after {
+	opacity: 1;
+}
+
+.div-adduser label.radio {
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 15px;
+	overflow: visible;
+	position: relative;
+  	text-indent: 10px;
+}
+
+.div-adduser label.radio:before {
+  	background: #3a57af;
+  	content:'';
+  	position: absolute;
+  	top:2px;
+  	left: 0;
+  	width: 20px;
+  	height: 20px;
+  	border-radius: 100%;
+}
+
+.div-adduser label.radio:after {
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 0.5em;
+	height: 0.25em;
+	background: transparent;
+	top: 7.5px;
+	left: 4.5px;
+	border: 3px solid #ffffff;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.div-incidencias {
+  	margin-left: 10%;
+  	text-align: center;
+  	width: 80%;
+}
+
+.div-incidencias div{
+	display: inline-block;
+}
+
+.div-incidencias select{
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.div-picada{
+	border: .1em solid #F60;
+    border-radius: .5em;
+	background-color: #eeeeee;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	height: 45%;
+	margin-left: 20%;
+	margin-top: 7%;
+  	width: 60%;
+}
+
+.div-sesion{
+	border-bottom: .1em solid #F60;
+    border-radius: .5em;
+	background-color: #eeeeee;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+	padding: 5px;
+}
+
+.index{
+	background-image: url("../img/body.jpg");
+	background-size: 100% 100%;
+	margin:0;
+    background-attachment: fixed;
+    background-position: bottom;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.input-adduser{
+	background-color: #fff; 
+	border: solid 1px #cbc9c9;
+	border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+	box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  	height: 39px; 
+  	margin-bottom: 10px;
+  	margin-top: 10px; 
+  	-webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px; 
+  	-webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  	-moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px; 
+  	-moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  	width: 200px;   	
+
+}
+
+.mensajesok{
+	background: #ccffcc;
+	border: .1em solid green;
+	border-radius: .5em;
+	margin: .5em auto;
+	padding: .5em;
+	max-width: 70%;
+}
+
+.mensajesfail{
+	background: #ffcccc;
+	border: .1em solid #993333;
+	border-radius: .5em;
+	margin: .5em auto;
+	padding: .5em;
+	max-width: 70%;
+}
+
+.menu li {
+ 	display: inline;
+ 	margin: 0;
+ }
+
+ .menu-form-users{
+	display: inline;
+	margin:0;
+}
+
+.reloj{
+	font-size: 2em;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.tabla-neg {
+	border: .1px solid #993333;
+	border-collapse: collapse;
+	font-size: 15px;
+	margin-left: 25%;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.tabla-neg thead{
+	background: #ffcccc;
+	font-size: 14px;
+}
+
+.td-iconos{
+	width: 7%;
+}
+
+.td-titulo{
+	background-color: #006699;
+	color: white;
+	height: 40px;
+}
+.td-valor{
+	background-color: #F2F2F2;
+}
+
+.td-valor input{
+	width: 95%;
+}
